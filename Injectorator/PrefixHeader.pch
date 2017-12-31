@@ -1,0 +1,9 @@
+//
+//  PrefixHeader.pch
+//  Injection
+//
+//  Created by Bartosz Polaczyk on 20/11/2017.
+//  Copyright © 2017 John Holdsworth. All rights reserved.
+//
+
+#import <AppKit/AppKit.h>

@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1037FD031FC3743400561331 /* Xprobe.mm in Sources */ = {isa = PBXBuildFile; fileRef = BB356AB51E0AF7F40056B10F /* Xprobe.mm */; };
+		1037FD041FC3743600561331 /* Xtrace.mm in Sources */ = {isa = PBXBuildFile; fileRef = BB356AB31E0AF7F40056B10F /* Xtrace.mm */; };
+		10C8B4791FC21CA400BB9D45 /* HelperProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C8B4751FC21CA200BB9D45 /* HelperProxy.m */; };
+		10C8B47A1FC21CA400BB9D45 /* HelperInstaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C8B4771FC21CA400BB9D45 /* HelperInstaller.m */; };
+		10C8B47F1FC21CF600BB9D45 /* DDHotKeyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C8B47B1FC21CF400BB9D45 /* DDHotKeyCenter.m */; };
+		10C8B4801FC21CF600BB9D45 /* DDHotKeyUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C8B47C1FC21CF400BB9D45 /* DDHotKeyUtilities.m */; };
+		10C8B4811FC2230600BB9D45 /* Source.html in Resources */ = {isa = PBXBuildFile; fileRef = BB356A7C1E0AF37A0056B10F /* Source.html */; };
+		10C8B4821FC2230600BB9D45 /* canviz.html in Resources */ = {isa = PBXBuildFile; fileRef = BB356A7D1E0AF37A0056B10F /* canviz.html */; };
+		10C8B4831FC2230600BB9D45 /* canviz2.html in Resources */ = {isa = PBXBuildFile; fileRef = BB356A7E1E0AF37A0056B10F /* canviz2.html */; };
+		10C8B4841FC2230600BB9D45 /* Intro.html in Resources */ = {isa = PBXBuildFile; fileRef = BB356A7F1E0AF37A0056B10F /* Intro.html */; };
 		BB010BD91E1F3A0B00C3AACA /* iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = BB010BD41E1F3A0B00C3AACA /* iphone.png */; };
 		BB010BDA1E1F3A0B00C3AACA /* log.html in Resources */ = {isa = PBXBuildFile; fileRef = BB010BD51E1F3A0B00C3AACA /* log.html */; };
 		BB010BDC1E1F3A0B00C3AACA /* patch.py in Resources */ = {isa = PBXBuildFile; fileRef = BB010BD71E1F3A0B00C3AACA /* patch.py */; };
@@ -39,10 +49,6 @@
 		BB356A751E0AF2E20056B10F /* LogParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB356A6D1E0AF2E20056B10F /* LogParser.swift */; };
 		BB356A761E0AF2E20056B10F /* SourceKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB356A6E1E0AF2E20056B10F /* SourceKit.swift */; };
 		BB356A7B1E0AF36F0056B10F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB356A791E0AF36E0056B10F /* MainMenu.xib */; };
-		BB356A801E0AF37A0056B10F /* Source.html in Resources */ = {isa = PBXBuildFile; fileRef = BB356A7C1E0AF37A0056B10F /* Source.html */; };
-		BB356A811E0AF37A0056B10F /* canviz.html in Resources */ = {isa = PBXBuildFile; fileRef = BB356A7D1E0AF37A0056B10F /* canviz.html */; };
-		BB356A821E0AF37A0056B10F /* canviz2.html in Resources */ = {isa = PBXBuildFile; fileRef = BB356A7E1E0AF37A0056B10F /* canviz2.html */; };
-		BB356A831E0AF37A0056B10F /* Intro.html in Resources */ = {isa = PBXBuildFile; fileRef = BB356A7F1E0AF37A0056B10F /* Intro.html */; };
 		BB356A851E0AF3910056B10F /* canviz-0.1 in Resources */ = {isa = PBXBuildFile; fileRef = BB356A841E0AF3910056B10F /* canviz-0.1 */; };
 		BB356A881E0AF3E10056B10F /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = BB356A871E0AF3E10056B10F /* Utils.m */; };
 		BB356A8B1E0AF40B0056B10F /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BB356A8A1E0AF40B0056B10F /* libsqlite3.tbd */; };
@@ -57,8 +63,6 @@
 		BB356AAF1E0AF6D80056B10F /* INPluginMenuController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB356AA51E0AF6D80056B10F /* INPluginMenuController.xib */; };
 		BB356AB01E0AF6D80056B10F /* INPluginClientController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB356AA71E0AF6D80056B10F /* INPluginClientController.m */; };
 		BB356AB11E0AF6D80056B10F /* FileWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = BB356AA91E0AF6D80056B10F /* FileWatcher.m */; };
-		BB356AB71E0AF7F40056B10F /* Xtrace.mm in Sources */ = {isa = PBXBuildFile; fileRef = BB356AB31E0AF7F40056B10F /* Xtrace.mm */; };
-		BB356AB81E0AF7F40056B10F /* Xprobe.mm in Sources */ = {isa = PBXBuildFile; fileRef = BB356AB51E0AF7F40056B10F /* Xprobe.mm */; };
 		BB356AB91E0AF7F40056B10F /* Xprobe+Service.mm in Sources */ = {isa = PBXBuildFile; fileRef = BB356AB61E0AF7F40056B10F /* Xprobe+Service.mm */; };
 		BB356ABB1E0AF8130056B10F /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BB356ABA1E0AF8130056B10F /* libz.tbd */; };
 		BB356ABD1E0B03220056B10F /* injection.png in Resources */ = {isa = PBXBuildFile; fileRef = BB356ABC1E0B03220056B10F /* injection.png */; };
@@ -67,8 +71,6 @@
 		BB356AE41E0B09610056B10F /* mach_inject.c in Sources */ = {isa = PBXBuildFile; fileRef = BB356AE11E0B09610056B10F /* mach_inject.c */; };
 		BB356B041E0B0BA20056B10F /* mach_inject_bundle_stub.c in Sources */ = {isa = PBXBuildFile; fileRef = BB356B031E0B0BA20056B10F /* mach_inject_bundle_stub.c */; };
 		BB356B051E0B0BC40056B10F /* Bootstrap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BB356AFC1E0B0B8A0056B10F /* Bootstrap.bundle */; };
-		BB356B0C1E0B0D0A0056B10F /* HelperInstaller.m in Sources */ = {isa = PBXBuildFile; fileRef = BB356B091E0B0D0A0056B10F /* HelperInstaller.m */; };
-		BB356B0D1E0B0D0A0056B10F /* HelperProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB356B0B1E0B0D0A0056B10F /* HelperProxy.m */; };
 		BB356B131E0B0E680056B10F /* InjectionOK.tif in Resources */ = {isa = PBXBuildFile; fileRef = BB356B121E0B0E680056B10F /* InjectionOK.tif */; };
 		BB356B7C1E0B4A9A0056B10F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BB356B7B1E0B4A9A0056B10F /* Credits.rtf */; };
 		BB356B7E1E0B542F0056B10F /* com.johnholdsworth.Injectorator.Helper in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB356AD61E0B09000056B10F /* com.johnholdsworth.Injectorator.Helper */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
@@ -92,15 +94,6 @@
 		BB356C091E0DA37C0056B10F /* revertProject.pl in Resources */ = {isa = PBXBuildFile; fileRef = BB356C081E0DA37C0056B10F /* revertProject.pl */; };
 		BB356C311E0DA78B0056B10F /* BundleSweeper.h in Resources */ = {isa = PBXBuildFile; fileRef = BB356AAC1E0AF6D80056B10F /* BundleSweeper.h */; };
 		BB356C321E0DA7970056B10F /* IvarAccess.h in Resources */ = {isa = PBXBuildFile; fileRef = BB356AAD1E0AF6D80056B10F /* IvarAccess.h */; };
-		BB4847C01E380E1000622FA4 /* DDHotKeyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4847BD1E380E1000622FA4 /* DDHotKeyCenter.m */; };
-		BB4847C11E380E1000622FA4 /* DDHotKeyUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4847BF1E380E1000622FA4 /* DDHotKeyUtilities.m */; };
-		BB4847C81E38155D00622FA4 /* DDHotKeyCenter.h in Resources */ = {isa = PBXBuildFile; fileRef = BB4847BC1E380E1000622FA4 /* DDHotKeyCenter.h */; };
-		BB5A60A31E221EA600B6C1D9 /* closed_folder_orange.png in Resources */ = {isa = PBXBuildFile; fileRef = BB5A609E1E221EA600B6C1D9 /* closed_folder_orange.png */; };
-		BB5A60A41E221EA600B6C1D9 /* open_folder_orange.png in Resources */ = {isa = PBXBuildFile; fileRef = BB5A609F1E221EA600B6C1D9 /* open_folder_orange.png */; };
-		BB5A60A51E221EA600B6C1D9 /* document.png in Resources */ = {isa = PBXBuildFile; fileRef = BB5A60A01E221EA600B6C1D9 /* document.png */; };
-		BB5A60A61E221EA600B6C1D9 /* scan2.png in Resources */ = {isa = PBXBuildFile; fileRef = BB5A60A11E221EA600B6C1D9 /* scan2.png */; };
-		BB5A60A71E221EA600B6C1D9 /* scan.png in Resources */ = {isa = PBXBuildFile; fileRef = BB5A60A21E221EA600B6C1D9 /* scan.png */; };
-		BB5A60AB1E221EB400B6C1D9 /* DiskTreeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5A60A91E221EB400B6C1D9 /* DiskTreeAppDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		BB5A60B31E221F5C00B6C1D9 /* DiskTree.html in Resources */ = {isa = PBXBuildFile; fileRef = BB5A60B11E221F5C00B6C1D9 /* DiskTree.html */; };
 		BB5A60B41E221F5C00B6C1D9 /* DiskTree.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB5A60B21E221F5C00B6C1D9 /* DiskTree.xib */; };
 		BB5A60C81E22220B00B6C1D9 /* tree.c in Sources */ = {isa = PBXBuildFile; fileRef = BB5A60C61E2221EC00B6C1D9 /* tree.c */; };
@@ -112,6 +105,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		10C8B46C1FC21B5800BB9D45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10C8B4681FC21B5800BB9D45 /* InjectionLoader.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BBC55D8A14C4ED1500C41CA1;
+			remoteInfo = InjectionBundle;
+		};
+		10C8B4731FC21BA300BB9D45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10C8B46F1FC21BA300BB9D45 /* XprobeSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BBA9D48E1AE91028009EC34E;
+			remoteInfo = XprobeSwift;
+		};
 		BB356AEA1E0B09F60056B10F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BB356A451E0AF2780056B10F /* Project object */;
@@ -190,6 +197,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		108557BD1FC368C800239FBF /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		10C8B4681FC21B5800BB9D45 /* InjectionLoader.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = InjectionLoader.xcodeproj; path = Frameworks/injectionforxcode/InjectionPluginLite/InjectionLoader/InjectionLoader.xcodeproj; sourceTree = "<group>"; };
+		10C8B46F1FC21BA300BB9D45 /* XprobeSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = XprobeSwift.xcodeproj; path = Frameworks/XprobePlugin/XprobeSwift/XprobeSwift.xcodeproj; sourceTree = "<group>"; };
+		10C8B4751FC21CA200BB9D45 /* HelperProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HelperProxy.m; path = Frameworks/Smuggler/Smuggler/HelperProxy.m; sourceTree = SOURCE_ROOT; };
+		10C8B4761FC21CA300BB9D45 /* HelperInstaller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelperInstaller.h; path = Frameworks/Smuggler/Smuggler/HelperInstaller.h; sourceTree = SOURCE_ROOT; };
+		10C8B4771FC21CA400BB9D45 /* HelperInstaller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HelperInstaller.m; path = Frameworks/Smuggler/Smuggler/HelperInstaller.m; sourceTree = SOURCE_ROOT; };
+		10C8B4781FC21CA400BB9D45 /* HelperProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelperProxy.h; path = Frameworks/Smuggler/Smuggler/HelperProxy.h; sourceTree = SOURCE_ROOT; };
+		10C8B47B1FC21CF400BB9D45 /* DDHotKeyCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDHotKeyCenter.m; path = Frameworks/DDHotKey/DDHotKeyCenter.m; sourceTree = SOURCE_ROOT; };
+		10C8B47C1FC21CF400BB9D45 /* DDHotKeyUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDHotKeyUtilities.m; path = Frameworks/DDHotKey/DDHotKeyUtilities.m; sourceTree = SOURCE_ROOT; };
+		10C8B47D1FC21CF500BB9D45 /* DDHotKeyCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDHotKeyCenter.h; path = Frameworks/DDHotKey/DDHotKeyCenter.h; sourceTree = SOURCE_ROOT; };
+		10C8B47E1FC21CF500BB9D45 /* DDHotKeyUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDHotKeyUtilities.h; path = Frameworks/DDHotKey/DDHotKeyUtilities.h; sourceTree = SOURCE_ROOT; };
 		BB010BC01E1F39E800C3AACA /* RMPluginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMPluginController.h; path = ../Remote/Classes/RMPluginController.h; sourceTree = "<group>"; };
 		BB010BC11E1F39E800C3AACA /* RMPluginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMPluginController.m; path = ../Remote/Classes/RMPluginController.m; sourceTree = "<group>"; };
 		BB010BC21E1F39E800C3AACA /* RMPluginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RMPluginController.xib; path = ../Remote/Classes/RMPluginController.xib; sourceTree = "<group>"; };
@@ -278,18 +296,14 @@
 		BB356AFE1E0B0B8A0056B10F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB356B021E0B0BA20056B10F /* mach_inject_bundle_stub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mach_inject_bundle_stub.h; path = ../../Smuggler/Bootstrap/mach_inject_bundle_stub.h; sourceTree = "<group>"; };
 		BB356B031E0B0BA20056B10F /* mach_inject_bundle_stub.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mach_inject_bundle_stub.c; path = ../../Smuggler/Bootstrap/mach_inject_bundle_stub.c; sourceTree = "<group>"; };
-		BB356B081E0B0D0A0056B10F /* HelperInstaller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelperInstaller.h; path = ../../Smuggler/Smuggler/HelperInstaller.h; sourceTree = "<group>"; };
-		BB356B091E0B0D0A0056B10F /* HelperInstaller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HelperInstaller.m; path = ../../Smuggler/Smuggler/HelperInstaller.m; sourceTree = "<group>"; };
-		BB356B0A1E0B0D0A0056B10F /* HelperProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelperProxy.h; path = ../../Smuggler/Smuggler/HelperProxy.h; sourceTree = "<group>"; };
-		BB356B0B1E0B0D0A0056B10F /* HelperProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HelperProxy.m; path = ../../Smuggler/Smuggler/HelperProxy.m; sourceTree = "<group>"; };
 		BB356B121E0B0E680056B10F /* InjectionOK.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = InjectionOK.tif; sourceTree = "<group>"; };
 		BB356B5C1E0B184C0056B10F /* InjectionLoader.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = InjectionLoader.xcodeproj; path = InjectionLoader/InjectionLoader.xcodeproj; sourceTree = "<group>"; };
 		BB356B7B1E0B4A9A0056B10F /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
 		BB356B841E0B5A500056B10F /* InjectionIdle.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = InjectionIdle.tif; sourceTree = "<group>"; };
 		BB356B861E0B5D450056B10F /* INController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = INController.swift; sourceTree = "<group>"; };
 		BB356B881E0B72270056B10F /* common.pm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; name = common.pm; path = ../../injectionforxcode/InjectionPluginLite/common.pm; sourceTree = "<group>"; };
-		BB356B8A1E0B72890056B10F /* iOSBundleTemplate */ = {isa = PBXFileReference; lastKnownFileType = folder; name = iOSBundleTemplate; path = ../injectionforxcode/InjectionPluginLite/iOSBundleTemplate; sourceTree = "<group>"; };
-		BB356B8B1E0B72890056B10F /* OSXBundleTemplate */ = {isa = PBXFileReference; lastKnownFileType = folder; name = OSXBundleTemplate; path = ../injectionforxcode/InjectionPluginLite/OSXBundleTemplate; sourceTree = "<group>"; };
+		BB356B8A1E0B72890056B10F /* iOSBundleTemplate */ = {isa = PBXFileReference; lastKnownFileType = folder; name = iOSBundleTemplate; path = Frameworks/injectionforxcode/InjectionPluginLite/iOSBundleTemplate; sourceTree = "<group>"; };
+		BB356B8B1E0B72890056B10F /* OSXBundleTemplate */ = {isa = PBXFileReference; lastKnownFileType = folder; name = OSXBundleTemplate; path = Frameworks/injectionforxcode/InjectionPluginLite/OSXBundleTemplate; sourceTree = "<group>"; };
 		BB356B901E0B75030056B10F /* injectSource.pl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; name = injectSource.pl; path = ../../injectionforxcode/InjectionPluginLite/injectSource.pl; sourceTree = "<group>"; };
 		BB356B961E0B8A7F0056B10F /* xprobe.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = xprobe.html; path = ../../XprobePlugin/xprobe.html; sourceTree = "<group>"; };
 		BB356B971E0B8A7F0056B10F /* tiny_red.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = tiny_red.gif; path = ../../XprobePlugin/tiny_red.gif; sourceTree = "<group>"; };
@@ -302,10 +316,6 @@
 		BB356C001E0D9B410056B10F /* Integration.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Integration.xib; sourceTree = "<group>"; };
 		BB356C051E0DA0E40056B10F /* patchProject.pl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; name = patchProject.pl; path = ../../injectionforxcode/InjectionPluginLite/patchProject.pl; sourceTree = "<group>"; };
 		BB356C081E0DA37C0056B10F /* revertProject.pl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; name = revertProject.pl; path = ../../injectionforxcode/InjectionPluginLite/revertProject.pl; sourceTree = "<group>"; };
-		BB4847BC1E380E1000622FA4 /* DDHotKeyCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDHotKeyCenter.h; path = ../../DDHotKey/DDHotKeyCenter.h; sourceTree = "<group>"; };
-		BB4847BD1E380E1000622FA4 /* DDHotKeyCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDHotKeyCenter.m; path = ../../DDHotKey/DDHotKeyCenter.m; sourceTree = "<group>"; };
-		BB4847BE1E380E1000622FA4 /* DDHotKeyUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDHotKeyUtilities.h; path = ../../DDHotKey/DDHotKeyUtilities.h; sourceTree = "<group>"; };
-		BB4847BF1E380E1000622FA4 /* DDHotKeyUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDHotKeyUtilities.m; path = ../../DDHotKey/DDHotKeyUtilities.m; sourceTree = "<group>"; };
 		BB5A609E1E221EA600B6C1D9 /* closed_folder_orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = closed_folder_orange.png; path = ../DiskTree/closed_folder_orange.png; sourceTree = "<group>"; };
 		BB5A609F1E221EA600B6C1D9 /* open_folder_orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = open_folder_orange.png; path = ../DiskTree/open_folder_orange.png; sourceTree = "<group>"; };
 		BB5A60A01E221EA600B6C1D9 /* document.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = document.png; path = ../DiskTree/document.png; sourceTree = "<group>"; };
@@ -319,7 +329,7 @@
 		BB5A60C61E2221EC00B6C1D9 /* tree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tree.c; path = DiskTree/tree.c; sourceTree = "<group>"; };
 		BB5A60C91E2222A200B6C1D9 /* objcpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = objcpp.h; path = ../ObjCpp/objcpp.h; sourceTree = "<group>"; };
 		BB5A60CA1E2222A200B6C1D9 /* objstr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = objstr.h; path = ../ObjCpp/objstr.h; sourceTree = "<group>"; };
-		BB63C9D21F78105D0048D83B /* InjectUnitTests.pm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; name = InjectUnitTests.pm; path = ../../injectionforxcode/InjectionPluginLite/InjectUnitTests.pm; sourceTree = "<group>"; };
+		BB63C9D21F78105D0048D83B /* InjectUnitTests.pm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; name = InjectUnitTests.pm; path = ../Frameworks/injectionforxcode/InjectionPluginLite/InjectUnitTests.pm; sourceTree = "<group>"; };
 		BB63C9D81F7862A30048D83B /* docs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = docs; sourceTree = "<group>"; };
 		BB6528301E698C4100B8FB95 /* coverage.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = coverage.rb; path = ../../RefactoratorApp/Refactorator/coverage.rb; sourceTree = "<group>"; };
 		BB6528311E698C4100B8FB95 /* Coverage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Coverage.swift; path = ../../RefactoratorApp/Refactorator/Coverage.swift; sourceTree = "<group>"; };
@@ -370,6 +380,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10C8B4691FC21B5800BB9D45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10C8B46D1FC21B5800BB9D45 /* InjectionLoader.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10C8B4701FC21BA300BB9D45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10C8B4741FC21BA300BB9D45 /* XprobeSwift.loader */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		BB010BBD1E1F39BE00C3AACA /* Remote */ = {
 			isa = PBXGroup;
 			children = (
@@ -389,7 +415,7 @@
 				BB010BCD1E1F39E800C3AACA /* RemoteHeaders.h */,
 				BB010BD31E1F39FE00C3AACA /* Resources */,
 			);
-			name = Remote;
+			path = Remote;
 			sourceTree = "<group>";
 		};
 		BB010BD31E1F39FE00C3AACA /* Resources */ = {
@@ -418,7 +444,9 @@
 				BB356AD71E0B09000056B10F /* InjectionHelper */,
 				BB356AFD1E0B0B8A0056B10F /* InjectionBootstrap */,
 				BB356B5C1E0B184C0056B10F /* InjectionLoader.xcodeproj */,
+				10C8B4681FC21B5800BB9D45 /* InjectionLoader.xcodeproj */,
 				BB356BAE1E0B8E930056B10F /* XprobeSwift.xcodeproj */,
+				10C8B46F1FC21BA300BB9D45 /* XprobeSwift.xcodeproj */,
 				BB356B8A1E0B72890056B10F /* iOSBundleTemplate */,
 				BB356B8B1E0B72890056B10F /* OSXBundleTemplate */,
 				BB356BD21E0C4C0F0056B10F /* injectSource */,
@@ -447,14 +475,14 @@
 				BB248A921E210E2F003F0DF6 /* Benchmark.swift */,
 				BB356B861E0B5D450056B10F /* INController.swift */,
 				BB010BE51E1F3D5A00C3AACA /* RMController.swift */,
-				BB356B081E0B0D0A0056B10F /* HelperInstaller.h */,
-				BB356B091E0B0D0A0056B10F /* HelperInstaller.m */,
-				BB356B0A1E0B0D0A0056B10F /* HelperProxy.h */,
-				BB356B0B1E0B0D0A0056B10F /* HelperProxy.m */,
-				BB4847BC1E380E1000622FA4 /* DDHotKeyCenter.h */,
-				BB4847BD1E380E1000622FA4 /* DDHotKeyCenter.m */,
-				BB4847BE1E380E1000622FA4 /* DDHotKeyUtilities.h */,
-				BB4847BF1E380E1000622FA4 /* DDHotKeyUtilities.m */,
+				10C8B4761FC21CA300BB9D45 /* HelperInstaller.h */,
+				10C8B4771FC21CA400BB9D45 /* HelperInstaller.m */,
+				10C8B4781FC21CA400BB9D45 /* HelperProxy.h */,
+				10C8B4751FC21CA200BB9D45 /* HelperProxy.m */,
+				10C8B47D1FC21CF500BB9D45 /* DDHotKeyCenter.h */,
+				10C8B47B1FC21CF400BB9D45 /* DDHotKeyCenter.m */,
+				10C8B47E1FC21CF500BB9D45 /* DDHotKeyUtilities.h */,
+				10C8B47C1FC21CF400BB9D45 /* DDHotKeyUtilities.m */,
 				BB356B841E0B5A500056B10F /* InjectionIdle.tif */,
 				BB356B121E0B0E680056B10F /* InjectionOK.tif */,
 				BB356B881E0B72270056B10F /* common.pm */,
@@ -466,6 +494,7 @@
 				BB63C9D21F78105D0048D83B /* InjectUnitTests.pm */,
 				BB356A5D1E0AF2AC0056B10F /* Injectorator-Bridging-Header.h */,
 				BB356A781E0AF32A0056B10F /* Resources */,
+				108557BD1FC368C800239FBF /* PrefixHeader.pch */,
 			);
 			path = Injectorator;
 			sourceTree = "<group>";
@@ -485,6 +514,7 @@
 				BB356A841E0AF3910056B10F /* canviz-0.1 */,
 			);
 			name = Resources;
+			path = ../RefactoratorApp/Refactorator;
 			sourceTree = "<group>";
 		};
 		BB356A891E0AF40A0056B10F /* Frameworks */ = {
@@ -516,7 +546,7 @@
 				BB356ABC1E0B03220056B10F /* injection.png */,
 			);
 			name = Injection;
-			path = Injectorator;
+			path = Frameworks/injectionforxcode/InjectionPluginLite;
 			sourceTree = "<group>";
 		};
 		BB356A981E0AF67D0056B10F /* Xprobe */ = {
@@ -538,7 +568,7 @@
 				BB356B9A1E0B8B0D0056B10F /* CodeMirror */,
 			);
 			name = Xprobe;
-			path = Injectorator;
+			path = Frameworks/XprobePlugin/Classes;
 			sourceTree = "<group>";
 		};
 		BB356ABE1E0B04B80056B10F /* Refactorator */ = {
@@ -564,7 +594,7 @@
 				BB356A871E0AF3E10056B10F /* Utils.m */,
 			);
 			name = Refactorator;
-			path = Injectorator;
+			path = Frameworks/Refactorator/Classes;
 			sourceTree = "<group>";
 		};
 		BB356AD71E0B09000056B10F /* InjectionHelper */ = {
@@ -578,7 +608,8 @@
 				BB356AE51E0B096D0056B10F /* Info.plist */,
 				BB356AE61E0B096D0056B10F /* Info-Launchd.plist */,
 			);
-			path = InjectionHelper;
+			name = InjectionHelper;
+			path = Frameworks/Smuggler/Helper;
 			sourceTree = "<group>";
 		};
 		BB356AFD1E0B0B8A0056B10F /* InjectionBootstrap */ = {
@@ -588,7 +619,8 @@
 				BB356B031E0B0BA20056B10F /* mach_inject_bundle_stub.c */,
 				BB356AFE1E0B0B8A0056B10F /* Info.plist */,
 			);
-			path = InjectionBootstrap;
+			name = InjectionBootstrap;
+			path = Frameworks/Smuggler/Bootstrap;
 			sourceTree = "<group>";
 		};
 		BB356B5D1E0B184C0056B10F /* Products */ = {
@@ -739,25 +771,25 @@
 				TargetAttributes = {
 					BB356A4C1E0AF2780056B10F = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 9V5A8WE85E;
+						DevelopmentTeam = KYX7W689QJ;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Manual;
 					};
 					BB356AD51E0B09000056B10F = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 9V5A8WE85E;
+						DevelopmentTeam = KYX7W689QJ;
 						LastSwiftMigration = 0820;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					BB356AFB1E0B0B8A0056B10F = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 9V5A8WE85E;
+						DevelopmentTeam = KYX7W689QJ;
 						ProvisioningStyle = Manual;
 					};
 					BB356BD01E0C4C0E0056B10F = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 9V5A8WE85E;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = KYX7W689QJ;
+						ProvisioningStyle = Automatic;
 					};
 					BB5A60B81E22211900B6C1D9 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -779,12 +811,20 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = 10C8B4691FC21B5800BB9D45 /* Products */;
+					ProjectRef = 10C8B4681FC21B5800BB9D45 /* InjectionLoader.xcodeproj */;
+				},
+				{
 					ProductGroup = BB356B5D1E0B184C0056B10F /* Products */;
 					ProjectRef = BB356B5C1E0B184C0056B10F /* InjectionLoader.xcodeproj */;
 				},
 				{
 					ProductGroup = BB356BAF1E0B8E930056B10F /* Products */;
 					ProjectRef = BB356BAE1E0B8E930056B10F /* XprobeSwift.xcodeproj */;
+				},
+				{
+					ProductGroup = 10C8B4701FC21BA300BB9D45 /* Products */;
+					ProjectRef = 10C8B46F1FC21BA300BB9D45 /* XprobeSwift.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -799,6 +839,20 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		10C8B46D1FC21B5800BB9D45 /* InjectionLoader.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = InjectionLoader.bundle;
+			remoteRef = 10C8B46C1FC21B5800BB9D45 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		10C8B4741FC21BA300BB9D45 /* XprobeSwift.loader */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = XprobeSwift.loader;
+			remoteRef = 10C8B4731FC21BA300BB9D45 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		BB356B611E0B184D0056B10F /* InjectionLoader.bundle */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
@@ -820,12 +874,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB4847C81E38155D00622FA4 /* DDHotKeyCenter.h in Resources */,
 				BB20D57A1E1F98640013C59F /* README.md in Resources */,
 				BB010BE71E1F437C00C3AACA /* RMPluginController.xib in Resources */,
-				BB5A60A61E221EA600B6C1D9 /* scan2.png in Resources */,
 				BB010BE81E1F437C00C3AACA /* RMWindowController.xib in Resources */,
 				BB356C091E0DA37C0056B10F /* revertProject.pl in Resources */,
+				10C8B4841FC2230600BB9D45 /* Intro.html in Resources */,
 				BBCE04D81E0E16350097E1E6 /* openBundle.pl in Resources */,
 				BB356BDA1E0C4C2A0056B10F /* injectSource in Resources */,
 				BB356B051E0B0BC40056B10F /* Bootstrap.bundle in Resources */,
@@ -834,9 +887,11 @@
 				BB010BDA1E1F3A0B00C3AACA /* log.html in Resources */,
 				BB356B8F1E0B747B0056B10F /* BundleInjection.h in Resources */,
 				BB356C311E0DA78B0056B10F /* BundleSweeper.h in Resources */,
+				10C8B4811FC2230600BB9D45 /* Source.html in Resources */,
 				BB356C321E0DA7970056B10F /* IvarAccess.h in Resources */,
 				BB25263E1F65CC9700898347 /* LICENSE in Resources */,
 				BB356B891E0B72270056B10F /* common.pm in Resources */,
+				10C8B4821FC2230600BB9D45 /* canviz.html in Resources */,
 				BB356C071E0DA11C0056B10F /* patchProject.pl in Resources */,
 				BB356B911E0B75030056B10F /* injectSource.pl in Resources */,
 				BB356BC51E0B976E0056B10F /* evalCode.pl in Resources */,
@@ -850,13 +905,9 @@
 				BB356B991E0B8A7F0056B10F /* tiny_red.gif in Resources */,
 				BB6528321E698C4100B8FB95 /* coverage.rb in Resources */,
 				BB356B981E0B8A7F0056B10F /* xprobe.html in Resources */,
-				BB356A831E0AF37A0056B10F /* Intro.html in Resources */,
-				BB356A801E0AF37A0056B10F /* Source.html in Resources */,
-				BB356A811E0AF37A0056B10F /* canviz.html in Resources */,
-				BB356A821E0AF37A0056B10F /* canviz2.html in Resources */,
 				BB010BDD1E1F3A0B00C3AACA /* unpatch.py in Resources */,
+				10C8B4831FC2230600BB9D45 /* canviz2.html in Resources */,
 				BB356A851E0AF3910056B10F /* canviz-0.1 in Resources */,
-				BB5A60A71E221EA600B6C1D9 /* scan.png in Resources */,
 				BB356B9B1E0B8B0D0056B10F /* CodeMirror in Resources */,
 				BB356A531E0AF2780056B10F /* Assets.xcassets in Resources */,
 				BB356C041E0D9FC20056B10F /* Integration.xib in Resources */,
@@ -872,9 +923,6 @@
 				BB356A8C1E0AF42A0056B10F /* Xcode.h in Resources */,
 				BB010BDE1E1F3A5600C3AACA /* RemoteCapture.h in Resources */,
 				BB010BDF1E1F3A5600C3AACA /* RemoteHeaders.h in Resources */,
-				BB5A60A31E221EA600B6C1D9 /* closed_folder_orange.png in Resources */,
-				BB5A60A41E221EA600B6C1D9 /* open_folder_orange.png in Resources */,
-				BB5A60A51E221EA600B6C1D9 /* document.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -892,7 +940,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = "/bin/sh -x";
-			shellScript = "SYMROOT=/tmp\nchmod +x \"$CODESIGNING_FOLDER_PATH/Contents/Resources\"/*.pl &&\ncd InjectionLoader && \"$DEVELOPER_BIN_DIR\"/xcodebuild SYMROOT=$SYMROOT -arch x86_64 -sdk iphonesimulator -config Debug && cd - &&\ncp -rfv $SYMROOT/*-iphonesimulator/InjectionLoader.bundle \"$CODESIGNING_FOLDER_PATH/Contents/Resources\" &&\ncd XprobeSwift && \"$DEVELOPER_BIN_DIR\"/xcodebuild SYMROOT=$SYMROOT -arch x86_64 -sdk iphonesimulator -config Debug && cd - &&\nrm -rf \"$CODESIGNING_FOLDER_PATH/Contents/Resources/InjectionLoader.bundle/XprobeSwift.loader\" &&\ncp -rfv $SYMROOT/*-iphonesimulator/XprobeSwift.bundle \"$CODESIGNING_FOLDER_PATH/Contents/Resources/InjectionLoader.bundle/XprobeSwift.loader\" &&\ncd ../XprobePlugin/XprobeBundle &&\n\"$DEVELOPER_BIN_DIR\"/xcodebuild SYMROOT=$SYMROOT -arch x86_64 -sdk macosx -config Debug &&\ncp -rfv $SYMROOT/Debug/XprobeBundle.loader \"$CODESIGNING_FOLDER_PATH/Contents/Resources\" && cd -\ncd XprobeSwift && \"$DEVELOPER_BIN_DIR\"/xcodebuild SYMROOT=$SYMROOT -arch x86_64 -sdk macosx -config Debug && cd - &&\nrm -rf \"$CODESIGNING_FOLDER_PATH/Contents/Resources/XprobeBundle.loader/XprobeSwift.loader\" &&\ncp -rfv $SYMROOT/Debug/XprobeSwift.bundle \"$CODESIGNING_FOLDER_PATH/Contents/Resources/XprobeBundle.loader/XprobeSwift.loader\"\n";
+			shellScript = "SYMROOT=/tmp\nchmod +x \"$CODESIGNING_FOLDER_PATH/Contents/Resources\"/*.pl &&\ncd Frameworks/injectionforxcode/InjectionPluginLite/InjectionLoader && \"$DEVELOPER_BIN_DIR\"/xcodebuild SYMROOT=$SYMROOT -arch x86_64 -sdk iphonesimulator -config Debug && cd - &&\ncp -rfv $SYMROOT/*-iphonesimulator/InjectionLoader.bundle \"$CODESIGNING_FOLDER_PATH/Contents/Resources\" &&\ncd Frameworks/XprobePlugin/XprobeSwift && \"$DEVELOPER_BIN_DIR\"/xcodebuild SYMROOT=$SYMROOT -arch x86_64 -sdk iphonesimulator -config Debug && cd - &&\nrm -rf \"$CODESIGNING_FOLDER_PATH/Contents/Resources/InjectionLoader.bundle/XprobeSwift.loader\" && ls -al $SYMROOT/*-iphonesimulator/ &&\ncp -rfv $SYMROOT/*-iphonesimulator/XprobeSwift.bundle \"$CODESIGNING_FOLDER_PATH/Contents/Resources/InjectionLoader.bundle/XprobeSwift.loader\" &&\ncd Frameworks/XprobePlugin/XprobeBundle &&\n\"$DEVELOPER_BIN_DIR\"/xcodebuild SYMROOT=$SYMROOT -arch x86_64 -sdk macosx -config Debug &&\ncp -rfv $SYMROOT/Debug/XprobeBundle.loader \"$CODESIGNING_FOLDER_PATH/Contents/Resources\" && cd -\ncd Frameworks/XprobePlugin/XprobeSwift && \"$DEVELOPER_BIN_DIR\"/xcodebuild SYMROOT=$SYMROOT -arch x86_64 -sdk macosx -config Debug && cd - &&\nrm -rf \"$CODESIGNING_FOLDER_PATH/Contents/Resources/XprobeBundle.loader/XprobeSwift.loader\" &&\ncp -rfv $SYMROOT/*-iphonesimulator/XprobeSwift.bundle \"$CODESIGNING_FOLDER_PATH/Contents/Resources/XprobeBundle.loader/XprobeSwift.loader\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BBE9E2F51E32274A00CF0929 /* ShellScript */ = {
@@ -919,36 +967,35 @@
 				BB356AB01E0AF6D80056B10F /* INPluginClientController.m in Sources */,
 				BB356AAE1E0AF6D80056B10F /* INPluginMenuController.m in Sources */,
 				BB356AA11E0AF6BB0056B10F /* XprobePluginMenuController.m in Sources */,
-				BB5A60AB1E221EB400B6C1D9 /* DiskTreeAppDelegate.m in Sources */,
+				10C8B47A1FC21CA400BB9D45 /* HelperInstaller.m in Sources */,
 				BB356A9F1E0AF6BB0056B10F /* XprobeConsole.m in Sources */,
-				BB356AB71E0AF7F40056B10F /* Xtrace.mm in Sources */,
-				BB356AB81E0AF7F40056B10F /* Xprobe.mm in Sources */,
 				BB356AB91E0AF7F40056B10F /* Xprobe+Service.mm in Sources */,
 				BB010BE01E1F3C2300C3AACA /* RMPluginController.m in Sources */,
+				1037FD041FC3743600561331 /* Xtrace.mm in Sources */,
 				BB6528331E698C4100B8FB95 /* Coverage.swift in Sources */,
 				BB010BE11E1F3C2300C3AACA /* RMWindowController.m in Sources */,
 				BB010BE21E1F3C2300C3AACA /* RMMacroManager.m in Sources */,
 				BB010BE31E1F3C2300C3AACA /* RMDeviceController.m in Sources */,
 				BB010BE41E1F3C2300C3AACA /* RMImageView.m in Sources */,
 				BB356BE31E0C761E0056B10F /* Integration.swift in Sources */,
+				10C8B4801FC21CF600BB9D45 /* DDHotKeyUtilities.m in Sources */,
 				BB248A941E210FCC003F0DF6 /* Benchmark.swift in Sources */,
+				1037FD031FC3743400561331 /* Xprobe.mm in Sources */,
 				BB356B871E0B5D450056B10F /* INController.swift in Sources */,
 				BB010BE61E1F3D5A00C3AACA /* RMController.swift in Sources */,
 				BB356A641E0AF2AD0056B10F /* AppDelegate.swift in Sources */,
 				BB356A631E0AF2AD0056B10F /* AppController.swift in Sources */,
 				BB356A661E0AF2AD0056B10F /* Formatter.swift in Sources */,
 				BB356A881E0AF3E10056B10F /* Utils.m in Sources */,
-				BB356B0C1E0B0D0A0056B10F /* HelperInstaller.m in Sources */,
+				10C8B4791FC21CA400BB9D45 /* HelperProxy.m in Sources */,
 				BB356AB11E0AF6D80056B10F /* FileWatcher.m in Sources */,
-				BB356B0D1E0B0D0A0056B10F /* HelperProxy.m in Sources */,
 				BB356A651E0AF2AD0056B10F /* Common.swift in Sources */,
 				BB356A711E0AF2E20056B10F /* Entity.swift in Sources */,
 				BB356A671E0AF2AD0056B10F /* Project.swift in Sources */,
-				BB4847C11E380E1000622FA4 /* DDHotKeyUtilities.m in Sources */,
 				BB356A761E0AF2E20056B10F /* SourceKit.swift in Sources */,
-				BB4847C01E380E1000622FA4 /* DDHotKeyCenter.m in Sources */,
 				BB356A731E0AF2E20056B10F /* IndexStrings.swift in Sources */,
 				BB356A721E0AF2E20056B10F /* IndexDB.swift in Sources */,
+				10C8B47F1FC21CF600BB9D45 /* DDHotKeyCenter.m in Sources */,
 				BB356A751E0AF2E20056B10F /* LogParser.swift in Sources */,
 				BB356A701E0AF2E20056B10F /* ByteRegex.swift in Sources */,
 				BB356A741E0AF2E20056B10F /* LineGenerators.swift in Sources */,
@@ -1138,14 +1185,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 9V5A8WE85E;
+				DEVELOPMENT_TEAM = KYX7W689QJ;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = Injectorator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.johnholdsworth.Injectorator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "61d72ac1-f089-4dd1-a386-54a0cb5ebd75";
+				PROVISIONING_PROFILE_SPECIFIER = InjectoratorDev;
 				SWIFT_OBJC_BRIDGING_HEADER = "Injectorator/Injectorator-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -1157,14 +1208,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 9V5A8WE85E;
+				DEVELOPMENT_TEAM = KYX7W689QJ;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = Injectorator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.johnholdsworth.Injectorator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "61d72ac1-f089-4dd1-a386-54a0cb5ebd75";
+				PROVISIONING_PROFILE_SPECIFIER = InjectoratorDev;
 				SWIFT_OBJC_BRIDGING_HEADER = "Injectorator/Injectorator-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
@@ -1174,8 +1229,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
-				DEVELOPMENT_TEAM = 9V5A8WE85E;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KYX7W689QJ;
 				INFOPLIST_FILE = InjectionHelper/Info.plist;
 				INFOPLIST_PREPROCESS = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
@@ -1190,6 +1246,7 @@
 					"InjectionHelper/Info-Launchd.plist",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -1199,8 +1256,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
-				DEVELOPMENT_TEAM = 9V5A8WE85E;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KYX7W689QJ;
 				INFOPLIST_FILE = InjectionHelper/Info.plist;
 				INFOPLIST_PREPROCESS = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
@@ -1215,6 +1273,7 @@
 					"InjectionHelper/Info-Launchd.plist",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -1222,13 +1281,15 @@
 		BB356B001E0B0B8A0056B10F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 9V5A8WE85E;
+				DEVELOPMENT_TEAM = KYX7W689QJ;
 				INFOPLIST_FILE = InjectionBootstrap/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				PRODUCT_BUNDLE_IDENTIFIER = com.johnholdsworth.InjectionBootstrap;
 				PRODUCT_NAME = Bootstrap;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = bundle;
 			};
@@ -1237,13 +1298,15 @@
 		BB356B011E0B0B8A0056B10F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 9V5A8WE85E;
+				DEVELOPMENT_TEAM = KYX7W689QJ;
 				INFOPLIST_FILE = InjectionBootstrap/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				PRODUCT_BUNDLE_IDENTIFIER = com.johnholdsworth.InjectionBootstrap;
 				PRODUCT_NAME = Bootstrap;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = bundle;
 			};
@@ -1252,22 +1315,26 @@
 		BB356BD51E0C4C0F0056B10F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Developer ID Application";
-				DEVELOPMENT_TEAM = 9V5A8WE85E;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KYX7W689QJ;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		BB356BD61E0C4C0F0056B10F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Developer ID Application";
-				DEVELOPMENT_TEAM = 9V5A8WE85E;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KYX7W689QJ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};

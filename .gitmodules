@@ -1,0 +1,21 @@
+[submodule "Frameworks/injectionforxcode"]
+	path = Frameworks/injectionforxcode
+	url = https://github.com/johnno1962/injectionforxcode
+[submodule "Frameworks/Xprobe"]
+	path = Frameworks/XprobePlugin
+	url = https://github.com/johnno1962/Xprobe
+[submodule "Frameworks/Remote"]
+	path = Frameworks/Remote
+	url = https://github.com/johnno1962/Remote
+[submodule "Frameworks/Refactorator"]
+	path = Frameworks/Refactorator
+	url = https://github.com/johnno1962/Refactorator
+[submodule "Frameworks/RefactoratorApp"]
+	path = Frameworks/RefactoratorApp
+	url = https://github.com/johnno1962/RefactoratorApp
+[submodule "Frameworks/Smuggler"]
+	path = Frameworks/Smuggler
+	url = https://github.com/johnno1962/Smuggler
+[submodule "Frameworks/DDHotKey"]
+	path = Frameworks/DDHotKey
+	url = https://github.com/davedelong/DDHotKey
